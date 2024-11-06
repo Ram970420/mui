@@ -4,6 +4,7 @@ import './App.css';
 import ResponsiveAppBar from './AppBar';
 import BasicButtons from './Button';
 import BasicRating from './Rating';
+import UnderlineLink from './underline';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
      <BasicButtons/>
      <BasicRating/>
      <Typography/>
+     <UnderlineLink/>
     </div>
   );
 }
